@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>calcola il prezzo del tuo biglietto</h2>
+
+        <div class="content-top">
+            <div>
+                <h3>nome cognome</h3>
+                <input type="text" id="name" placeholder="come ti chiami?">
+            </div>
+
+            <div>
+                <h3>km da percorrere</h3>
+                <input type="text" id="km" placeholder="quanti km devi percorrere?">
+            </div>
+
+            <div>
+                <h3>età passeggero</h3>
+                <input type="text" id="age" placeholder="quanti anni hai?">
+            </div>
+
+            <div class="buttons">
+                <button type="button" id="btn-conf">calcola</button>
+                <button type="button" id="btn-del">annulla</button>
+            </div>
+        </div>
+
+
+        <h2>calcola il prezzo del tuo biglietto</h2>
+
+
+        <div class="content-bottom">
+
+            <div class="pass-info">
+                <h3>dettagli passeggeri</h2>
+
+                <div>
+                    nome passeggero:<div id="ticket-name"></div>
+                </div>
+            </div>
+
+
+
+            <div class="ticket-info">
+
+                <div>
+                    <h3>offerta</h3> 
+                    <div id="discount-type"></div>
+                </div>
+                
+                <div>  
+                    <h3>carrozza </h3>
+                    <div>5</div>
+                </div>
+
+                <div>
+                    <h3>codice CP</h3> 
+                    <div>92243</div>
+                </div>
+                
+                
+                <div>
+                    <h3>costo biglietto</h3>
+                    <div>prezzo biglietto: <span id="final-price"></span></div>
+                </div>
+
+            </div>
+            
+            
+           
+
+        </div>
+       
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

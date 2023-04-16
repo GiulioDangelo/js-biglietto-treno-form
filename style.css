@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+
+.container h2{
+    color: white;
+}
+
+.content-top,.content-bottom{
+    width: 100%;
+    background-color: white;
+}
+
+.content-top{
+    max-width: 90%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.content-top div{
+    margin-inline: 10px;
+    color: crimson;
+}
+
+input{
+    border: 1px solid crimson;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttons button{
+    margin-inline: 5px;
+    padding-inline: 10px;
+    color:  crimson;
+}
+
+.content-bottom{
+    max-width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass-info{
+    height: 82px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 10px;
+    color: rgb(249, 249, 249);
+    background-color: rgb(64, 64, 64);
+}
+
+.ticket-info{
+    display: flex;
+    align-items: center;
+    height: 82px;
+    margin-right: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.ticket-info>div{
+    margin-inline: 10px;
+}
+
+.title{
+    display: flex;
+}
+
+.title h2{
+    margin-inline: 10px;
+}
+
+.subtitle{
+    display: flex;
+}
+
+.subtitle div{
+    margin-inline: 10px;
+}
+
+@media (max-width:516px) {
+    .content-bottom{
+        max-width: 100%;
+    }
+}
